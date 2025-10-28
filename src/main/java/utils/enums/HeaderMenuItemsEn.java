@@ -8,7 +8,7 @@ public enum HeaderMenuItemsEn {
     PHOTO("//ul[@class='vertical medium-horizontal menu align-right show-for-medium show-for-large']//a[@title='Photo']"),
     VIDEO("//ul[@class='vertical medium-horizontal menu align-right show-for-medium show-for-large']//a[@title='Video']"),
     CONTACTS("//ul[@class='vertical medium-horizontal menu align-right show-for-medium show-for-large']//a[@title='Contacts']"),
-    BTN_CHANGE_LANGUAGE_RU("//*[@id='topnav']/li[9]/a");
+    BTN_CHANGE_LANGUAGE_RU(  "//ul[@class='vertical medium-horizontal menu align-right show-for-medium show-for-large']//*[@class='flag-icon flag-icon-ru']");
 
     private final String locator;
 

@@ -30,5 +30,7 @@ public class StartUITests extends AppManager {
 
         EnContactsPage enContactsPage = clickEnHeaderBtn(HeaderMenuItemsEn.CONTACTS);
         Assert.assertEquals(getDriver().getCurrentUrl(),"https://en.shishi.co.il/contacts");
+        enHomePage = clickEnHeaderBtn(HeaderMenuItemsEn.BTN_CHANGE_LANGUAGE_RU);
+       // Assert.assertEquals(getDriver().getCurrentUrl(),"https://shishi.co.il/");
     }
 }
